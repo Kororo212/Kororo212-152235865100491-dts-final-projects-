@@ -66,15 +66,7 @@ root.render(
   </React.StrictMode>
 
  
-=======
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
->>>>>>> 0780a58181d2724cb700ccfd852a5a795165117d
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
