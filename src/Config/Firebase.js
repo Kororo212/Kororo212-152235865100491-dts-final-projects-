@@ -8,7 +8,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCdmH5fcq2B-eWXXgG7ok1jEN_L-ElRMl8",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "learn-ea485.firebaseapp.com",
   projectId: "learn-ea485",
   storageBucket: "learn-ea485.appspot.com",
