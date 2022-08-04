@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# DTS Final Project
+
+Ketentuan lengkap bisa dilihat di [Final Project Guidelines](https://docs.google.com/document/d/1tIJWFEUr2NU8FZSxAA1IPi7ZYVn1jBDp6IdFUZjempg/edit?usp=sharing).
+
+## Fork and Clone
+
+Mohon peserta bisa melakukan fork repo ini dan clone, untuk repositori yang di fork menggunakan penamaan:
+
+`[nomor peserta tanpa strip]-dts-final-project`
+
+Contoh: `1512345678001-dts-final-project`
+
+## Branching, commit
+
+Branch dapat sesuai dengan kebutuhan mandiri, namun hasil akhirnya harus di merge ke branch `main`.
+>>>>>>> 0780a58181d2724cb700ccfd852a5a795165117d
