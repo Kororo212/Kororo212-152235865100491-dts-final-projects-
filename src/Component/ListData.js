@@ -4,7 +4,7 @@ import List from "../container/List";
 import TopList from "./TopList";
 import Pages from './Pages'
 import { dataAsync, dataG, Loading, Page, Sorter, Sorts} from "../Reducer/DataGame";
-import { useSelector,useDispatch } from "react-redux/es/exports";
+import { useSelector,useDispatch } from "react-redux";
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import ToggleButton from '@mui/material/ToggleButton';
 import DisplayLoad from "../container/Loading";

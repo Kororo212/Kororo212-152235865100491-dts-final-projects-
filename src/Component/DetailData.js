@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import Button from 'react-bootstrap/Button';
-import Pages from "./Pages";
+
 
 
 

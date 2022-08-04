@@ -1,25 +1,4 @@
-<<<<<<< HEAD
 
-.App {
-  text-align: center;
-}
-a.nav-inactive{
-  color:black;
-}
-.navlink:hover{
-  color:aliceblue
-}
-a.nav-active{
-  color:black;
-}
-a:active{
-  color:black
-}
-a,li{
-  text-decoration: none;
-  
-}
-=======
 .App {
   text-align: center;
 }
@@ -58,4 +37,4 @@ a,li{
     transform: rotate(360deg);
   }
 }
->>>>>>> 0780a58181d2724cb700ccfd852a5a795165117d
+
