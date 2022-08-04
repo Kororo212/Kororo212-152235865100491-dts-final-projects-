@@ -12,9 +12,10 @@ import axios from "axios"
 export const  dataAsync = createAsyncThunk(
     'data/fetch', 
     async(page)=>{
+          const API_KEY = process.env.KEY_API_FIREBASE
 
             if(page.sorted === 'Desc'){
-                const res = await axios.get(`https://api.rawg.io/api/games?key=baee91e75ea24efb978cf62eb1602b10&page=${page.page}`)
+                const res = await axios.get(`https://api.rawg.io/api/games?key=${API_KEY}&page=${page.page}`)
                 const data = res.data.results.map((data)=>data).sort((a,b)=>a.rating - b.rating)
                 return data
             }if(page.sorted === 'Asc'){
